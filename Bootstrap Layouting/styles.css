@@ -1,0 +1,53 @@
+body {
+  background-color: #f8f9fa;
+}
+.header {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 15px;
+}
+.card {
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.quantity-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.quantity-btn {
+  border: none;
+  background-color: #ddd;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  padding: 10px 15px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between; /* Teks di kiri, tombol di kanan */
+  align-items: center;
+}
+.konfirmasi-btn {
+  width: auto; /* Agar tidak full width */
+  min-width: 180px; /* Menjaga ukuran tombol agar tidak terlalu kecil */
+}
+.kamera-container {
+  display: flex;
+  flex-direction: column; /* Mengatur gambar & tombol ke dalam satu kolom */
+  align-items: center;
+}
+.kamera {
+  max-width: 150px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10px;
+}
